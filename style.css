@@ -24,14 +24,21 @@ font-weight: 400;
 }
 
 .bigbtn {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  display: inline;
   background-color: #7289DA;
   width:  10%;
-  height: 50px;
+  height: 40px;
+  cursor: pointer;
   border: none;
   border-radius: 10px;
   color: rgb(17, 17, 17);
   font-size: 25px;
   margin-left: 20px;
+  padding-top: 10px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 800;
 
