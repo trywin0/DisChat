@@ -1,0 +1,38 @@
+
+html, body{
+  background-color:#1b1b1b;
+  text-align: center;
+}
+
+.title{
+margin: auto;
+width: fit-content;
+/*background-color:#7289DA;*/
+border-radius: 10px;
+font-family: 'Segoe UI';
+font-size: 60px;
+margin-top: 15%;
+color:rgb(233, 233, 233);
+font-weight: 400;
+}
+
+.shortdesc{
+  color: rgb(209, 209, 209);
+  font-family: 'Segoe UI';
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.bigbtn {
+  background-color: #7289DA;
+  width:  10%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(17, 17, 17);
+  font-size: 25px;
+  margin-left: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 800;
+
+}
