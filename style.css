@@ -29,6 +29,7 @@ color:rgb(233, 233, 233);
 font-weight: 400;
 }
 
+
 .shortdesc{
   color: rgb(209, 209, 209);
   font-family: 'Segoe UI';
@@ -54,4 +55,37 @@ font-weight: 400;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 800;
 
+}
+
+.showcase{
+  display: block;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.eximg{
+  width:35%;
+  margin-right: 5%;
+  border-radius: 1em;
+  border: 3px solid rgb(105, 105, 105);
+  float: left;
+}
+
+.imgdesc{
+  margin-top: 10%;
+  color: rgb(209, 209, 209);
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  font-weight: 200;
+  max-width: 30em;
+  float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .eximg{
+    width:100%
+  }
+  .showcase{
+    margin-top: 10%;
+    margin-left: 0;
+  }
 }
