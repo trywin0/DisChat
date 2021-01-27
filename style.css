@@ -1,9 +1,22 @@
 
-html, body{
-  background-color:#1b1b1b;
+body {
+	background: linear-gradient(-45deg, #2e2e2e, #162844, #092530, #0f3129);
+	background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   text-align: center;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 .title{
 margin: auto;
 width: fit-content;
